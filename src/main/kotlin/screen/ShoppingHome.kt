@@ -34,6 +34,7 @@ class ShoppingHome {
     }
 
     private fun showCategories() {
+        // screen.ShoppingCategory 인스턴스 생성하기
         val shoppingCategory = ShoppingCategory()
         shoppingCategory.showCategories()
     }
